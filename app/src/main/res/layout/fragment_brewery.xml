@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brewery Name:"
+        android:padding="15dp"
+        android:id="@+id/txtview1"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_toRightOf="@id/txtview1"
+        android:padding="15dp"
+        android:id="@+id/brewery_name_field"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Established:"
+        android:padding="15dp"
+        android:layout_below="@id/txtview1"
+        android:id="@+id/txtview2"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Established"
+        android:layout_toRightOf="@id/txtview2"
+        android:id="@+id/brewery_established_field"
+        android:layout_below="@id/brewery_name_field"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website:"
+        android:padding="15dp"
+        android:layout_below="@id/txtview2"
+        android:id="@+id/txtview3"
+        android:textStyle="bold"
+        android:autoLink="web"
+        android:clickable="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:layout_toRightOf="@id/txtview3"
+        android:layout_below="@id/brewery_established_field"
+        android:padding="15dp"
+        android:id="@+id/brewery_website_field"
+        android:autoLink="web"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt5"
+        android:text="Brewery Region:"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="4dp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtview3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brewery_region_field"
+        android:text="Region"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="4dp"
+        android:layout_below="@id/brewery_website_field"
+        android:layout_toRightOf="@id/txt5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt6"
+        android:text="Brewery Street Address:"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/txt5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brewery_address_field"
+        android:text="Address"
+        android:padding="15dp"
+        android:layout_below="@+id/brewery_region_field"
+        android:layout_toRightOf="@+id/txt6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt7"
+        android:text="Postal Code:"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_below="@+id/txtview3"
+        android:layout_toRightOf="@id/brewery_region_field"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/brewery_postal_code_field"
+        android:text="Postal Code"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="4dp"
+        android:layout_below="@+id/txtview3"
+        android:layout_toRightOf="@id/txt7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:paddingTop="10dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_below="@id/txt6"
+        android:id="@+id/txtview4"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_below="@id/txtview4"
+        android:paddingLeft="15dp"
+        android:paddingTop="4dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="1dp"
+        android:id="@+id/brewery_description_field"/>
+
+</RelativeLayout>

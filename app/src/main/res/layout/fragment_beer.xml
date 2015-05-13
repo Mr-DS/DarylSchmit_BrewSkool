@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beer Name:"
+        android:padding="15dp"
+        android:id="@+id/txtview1"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_toRightOf="@id/txtview1"
+        android:padding="15dp"
+        android:id="@+id/beer_name_field"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beer Style:"
+        android:padding="15dp"
+        android:layout_below="@id/txtview1"
+        android:id="@+id/txtview2"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style"
+        android:layout_toRightOf="@id/txtview2"
+        android:id="@+id/beer_style_field"
+        android:layout_below="@id/beer_name_field"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcohol By Volume(abv):"
+        android:padding="15dp"
+        android:layout_below="@id/txtview2"
+        android:id="@+id/txtview3"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABV"
+        android:layout_toRightOf="@id/txtview3"
+        android:layout_below="@id/beer_style_field"
+        android:padding="15dp"
+        android:id="@+id/beer_abv_field"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:padding="15dp"
+        android:layout_below="@id/txtview3"
+        android:id="@+id/txtview4"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_below="@id/txtview4"
+        android:padding="15dp"
+        android:id="@+id/beer_description_field"/>
+
+</RelativeLayout>
